@@ -1,0 +1,261 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    
+    color: white;
+    background-image: url(../love.jpg);
+    background-size:152px;    
+}
+.outer{
+    padding: 0 7.5% 10%;
+    margin: 7% 15%;
+    /*justify-content: center;
+    text-align: center;*/
+    border: 9px solid goldenrod;
+    border-style: double;
+    border-radius: 1.9cm;
+    border-bottom-color: antiquewhite;
+    border-top-color: antiquewhite;
+    font-size: 40px;
+    background-color: black;
+}
+p{
+    padding-top: 3%;
+    margin-bottom: 10%;
+    margin-top: 5%;
+    text-align: left;
+    font-size:40px;
+    text-transform: capitalize;
+    color: blue;
+   
+
+}
+
+
+
+h2{
+    margin-top: 20%;
+    margin-left: 30%;
+}
+.outer h2 a{
+    animation: animate 1s linear infinite;
+    text-decoration: none;
+    font-size: 70px;
+}
+@keyframes animate{
+    0%{
+        opacity: 0;
+    }
+    50%{
+        opacity: 0.7;
+    }
+    100%{
+        opacity: 0;
+    }
+}
+
+/* index1*/
+
+.inner{
+    padding: 0 7.5% 8%;
+    margin: 7% 15%;
+    justify-content: center;
+    text-align: center;
+    border: 9px solid goldenrod;
+    
+    border-radius: 3cm;
+    border-bottom-color: antiquewhite;
+    border-top-color: antiquewhite;
+    font-size: 40px;
+    animation: animates 8s ease-in infinite;
+    background-color: black;
+}
+@keyframes animates{
+    0%{
+        border: 10px solid red;
+    }
+    15%{
+        border: 10px solid green;
+    }
+    25%{
+        border: 10px solid yellow;
+    }
+    60%{
+        border: 10px solid blue;
+    }
+    100%{
+        border: 10px solid brown;
+    }
+    
+
+}
+h3{
+    /*padding: 15%;*/
+    text-align: center;
+    margin-top: 15%;
+    animation: ani 5s ease-in-out infinite;
+    
+}
+@keyframes ani{
+    0%{
+       
+        color: rebeccapurple;
+    } 20%{
+
+        color: red;
+    } 60%{
+
+        color: rgb(212, 24, 140);
+    }
+    100%{
+
+        color: rgb(rgb(21, 255, 0), green, blue);
+    }
+}
+.bg
+{
+    background-image: url(../love.jpg);
+    background-size:152px;    
+}
+.pushpa{
+    float: left ;
+    margin-top: 5%;
+    margin-left: -5%;
+    animation: pic1 3s linear infinite;
+}
+@keyframes pic1{
+    0%{
+        opacity: 0;
+    }
+    50%{
+        opacity: 0.7;
+    }
+    100%{
+        opacity: 0;
+    }
+}
+.puspha{
+    float: right;
+    animation: pic2 3s linear infinite;
+}
+@keyframes pic2{
+    0%{
+        opacity: 0;
+    }
+    50%{
+        opacity: 0.7;
+    }
+    100%{
+        opacity: 0;
+    }
+}
+.balloon{
+    float: left;
+    margin-top: 16%;
+   
+}
+.touch{
+    text-align: left;
+}
+.touch a{
+    text-decoration: none;
+    animation: heart 1s linear infinite;
+   
+}
+@keyframes heart{
+    0%{
+        opacity: 0;
+    }
+    50%{
+        opacity: 0.7;
+    }
+    100%{
+        opacity: 0;
+    }
+}
+
+/* indwx2 */ 
+.bg2{
+    background-image: url(../pic.jpg);
+    background-size:152px;  
+}
+.innerdiv{
+    padding: 0 7.5% 7%;
+    margin: 7% 15%;
+    /*justify-content: center;*/
+    text-align: center;
+    border: 9px solid silver;
+    border-radius: 1.9cm;
+    font-size: 40px;
+    background-color:black;
+}
+.pic
+{
+    float: right;
+    margin-top: 5%;
+    animation: pic 3s linear infinite
+}
+@keyframes pic{
+    0%{
+        opacity: 0;
+    }
+    50%{
+        opacity: 0.7;
+    }
+    100%{
+        opacity: 0;
+    }
+}
+
+.pic3
+{
+    float: left;
+    margin-top: 5%;
+    animation: pic 3s linear infinite
+}
+@keyframes pic{
+    0%{
+        opacity: 0;
+    }
+    50%{
+        opacity: 0.7;
+    }
+    100%{
+        opacity: 0;
+    }
+}
+
+h4, .pic3, .pic{
+    display: inline-flex;
+}
+h4{
+    margin-top: 5%;
+    font-size: 60px;
+}
+audio{
+    margin-top: 5%;
+}
+.last
+{
+    animation: last 2s ease-in-out infinite;
+}
+@keyframes last{
+    0%{
+       
+        color: rgb(117, 12, 12);
+    } 20%{
+
+        color: rgb(17, 95, 148);
+    } 60%{
+
+        color: rgba(187, 176, 16, 0.801);
+    }
+    100%{
+
+        color: rgb(188, 201, 200)
+    }
+}
